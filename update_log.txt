@@ -1,0 +1,274 @@
+Historique des versions (de la plus récente à la plus ancienne)
+
+
+
+
+
+>--------------------------------<(08/02/2023)>--------------------------------<
+
+
+Version 1.4.8 :
+
+    Changement des couleurs des équipes pour les rendres plus visibles
+    L'équipe n°1 est passée de rouge à orange
+    L'équipe n°2 est passée de bleu à cyan
+    Grand retour du délai d'attente minimal entre chaque exécution des IA (situé en fin de script, vaut 0 par défaut)
+    Correction mineure de bugs
+    Buff de bob (°_°)
+
+
+
+>--------------------------------<(11/01/2023)>--------------------------------<
+
+
+Version 1.4.7 :
+
+    Ajout de 2 nouveaux sets de tuiles
+    Ajout de 4 cartes officielles
+    Correction d'un problème très mineur
+    Vitesse par défaut des IA augmentée : 0.05% -> 0.10%
+
+
+
+>--------------------------------<(04/01/2023)>--------------------------------<
+
+
+Version 1.4.6 :
+
+    Ajouts de 3 nouveaux set de tuiles sur le thème de la nature, de Noël et de la maison
+    Ajout de 2 nouvelles carte officielles, ils sont rangés dans ./ressources/sauvegardes/ et sont nommés "OFFICIEL - <nom_de_la_map>"
+    Modification du délais de récativation des boutons "Sauvegarder" et "Charger"
+    Affichage du nom de la carte lors du chargement d'une carte pré-générée
+    Correction de bugs mineurs liés au bouton "Sauvegarder"
+
+
+
+>--------------------------------<(29/12/2022)>--------------------------------<
+
+
+Version 1.4.5 :
+
+    Finalisation de l'écran "Versus"
+    Ajout d'un système pour mettre des éléments par défaut chez les participants si ces éléments ne sont pas définis
+    Il est désormais possible de mettre un IA ne faisant rien en mettant un nom de dossier participant n'existant pas
+    Nouveau set de tuile, thème électronique
+    Modification de la syntaxe des chemins d'accès afin de règler des problèmes de compatibilités avec MAC
+
+
+Version 1.4.4 :
+
+    Ajout d'un écran "Versus" affiché en début de match
+    Ajout d'un bouton pour activer ou non l'affichage de l'écran "Versus"
+    Ajout d'un bouton pour activer ou non le compte à rebour initial de 3 secondes
+    Ajout d'information sur les touches de raccourci pour les boutons "Quitter" et "Recréer" dans leur description
+    Légère mise à jour du "READ_ME.txt"
+    La vitesse des IA est maintenant par défaut réduite à 0.05% de leur vitesse originale
+    Cette valeur sera modifiée le jour de la compétion en fonction des envies des participants
+
+
+
+>--------------------------------<(27/12/2022)>--------------------------------<
+
+
+Version 1.4.3 :
+
+    Fix dex bugs liés à une vitesse d'exécution des IA trop rapide
+    Suppression du système de vitesse maximale des IA
+    Correction d'un bug mineur
+
+
+
+>--------------------------------<(08/12/2022)>--------------------------------<
+
+
+Version 1.4.2 :
+
+    Correction de bugs divers plus ou moins important
+    Ajout d'une icone et du nom à la fenêtre du programme
+
+
+
+>--------------------------------<(07/12/2022)>--------------------------------<
+
+
+Version 1.4.1 :
+
+    Amélioration de l'UI
+    Ajout d'un compte à rebours de 3 secondes au début de chaque match
+    Ajout de la mascote de chaque équipe à côté de son nom et sur son écran de victoire
+    Fix d'un bug qui faisait que lorsqu'une IA crashait elle bloquait l'autre
+
+
+
+>--------------------------------<(06/12/2022)>--------------------------------<
+
+
+Version 1.4.0 :
+
+    Amélioration du système d'outline
+    Modification du fonctionnement des boutons "Run" et "Stop" afin de fixer de gros bugs et de les rendre plus intuitifs
+    Optimisation du système de débuggage afin qu'il consomme moins de ressources pour les IA
+
+
+Principales nouveautés 1.4.x :
+
+    Polissage général
+    Ajout des principaux éléments suggérés depuis les dernières versions
+
+
+Version 1.3.7 :
+
+    Fix du fait qu'il était possible de cliquer sur les bouton sans même les afficher
+    Supression d'un élément de débuggage oublié par inadvertance
+
+
+
+>--------------------------------<(05/12/2022)>--------------------------------<
+
+
+Version 1.3.6 :
+
+    Fix d'un bug majeur avec le système de chargement et de sauvegarde
+    Ajout d'un système pour entourer chaque IA avec la couleur de son équipe
+
+
+Version 1.3.5 :
+
+    Finalisation de l'éditeur de carte
+    L'éditeur de carte est désormais opérationnel
+    Ajout de légendes et d'icones dans l'interface
+    Réorganisation partielle de la disposition des boutons
+    Fix d'un bug avec le système de police qui empêchait les retours à la ligne
+    Fix d'un bug qui permettait de cliquer sur plusieurs éléments en même temps
+    Avec les optimisations, il a falut réduire encore plus la vitesse des IA
+    Nerf de la vitesse générale des IA : 0.020% -> 0.015%
+    Nerf de la vitesse maximale des IA : 25 exec/s -> 20 exec/s
+
+
+
+>--------------------------------<(04/12/2022)>--------------------------------<
+
+
+Version 1.3.4 :
+
+    Avancé importante sur l'éditeur de carte
+    Possibilité théorique de placer des éléments, de sauvegarder une carte et de charger une carte
+    Gestion des inputs claviers de l'utilisateur
+
+
+
+>--------------------------------<(03/12/2022)>--------------------------------<
+
+
+Version 1.3.3 :
+
+    Optimisation extrème du script
+    Ajout de barres d'input textuel
+    Suppression d'une grande partie des racourcis claviers au profit de boutons
+
+
+Version 1.3.2 :
+
+    Optimisation importante de l'utilisation de la RAM en réduisant les ressources utilisées par le multi-processing
+
+
+Version 1.3.1 :
+
+    Tous les racourcis claviers ont désormais un équivalent sous forme de bouton
+    Ajout d'une barre de description à tous les boutons
+    Correctifs mineurs
+
+
+
+>--------------------------------<(02/12/2022)>--------------------------------<
+
+
+Version 1.3.0 :
+
+    Début de l'interface visuelle
+    Fusion de l'option de débug graphique et de log dans la console
+    Correctifs mineurs
+
+
+Principales nouveautés 1.3.x :
+
+    Ajout d'une interface interactive, rendant le programme beaucoup plus intuitif
+    Amélioration de la prise en main et de l'accessibilité
+    Ajout d'un éditeur de carte
+    Amélioration des performances
+
+
+
+>--------------------------------<(01/12/2022)>--------------------------------<
+
+
+Version 1.2.1 :
+
+    Augmentation de la vitesse maximale des IA : 20 exec/s -> 25 exec/s
+    Réduction de la vitesse générale des IA : 0.025% -> 0.020%
+    Ajout de deux nouvelle générations de terrain, un terrain vide et un terrain en pointillés
+    Ajout d'un nouveau jeu de tuiles, le thème espace, le paramètre HD y est recommendé
+    Légère modification du style graphique des bordures semi-transparentes
+    Réduction de la taille d'affichage des scores
+    Les "_" dans le nom des équipes sont désormais remplacés par " " lors de l'affichage
+    Modifications très légères à "READ_ME.txt"
+
+
+
+>--------------------------------<(30/11/2022)>--------------------------------<
+
+
+Version 1.2.0 :
+
+    Reboot des IA après rechargement de la carte
+    Ajout d'un système de score
+    Affichage du nom des équipes
+    Affichage d'un message de victoire
+    Reset du chronomètre après le rechargement de la carte
+    Correctifs mineurs divers
+
+
+Principales nouveautés 1.2.x :
+
+    Corrections de bugs divers
+    Amélioration majeure de la prise en main
+    Ajouts d'une UI avec des informations essencielles
+
+
+Version 1.1.1 :
+
+    Amélioration majeure du système de gestion des IA
+    Modification du système de bridage des IA
+    Fix de bugs liées aux IA
+    Ajouts de sécuritées aux IA
+    Ajout de "READ_ME.txt"
+    Ajout de "update_log.txt"
+    Ajout d'options de débbuging graphique
+
+
+
+>--------------------------------<(29/11/2022)>--------------------------------<
+
+
+Version 1.1.0 :
+
+    Fix de bugs liés au multi-processing
+    Amélioration du système de gestion des IA
+    Création d'options de débbuging
+    Logs de nombreuses information dans la console
+
+
+Principales nouveautés 1.1.x :
+
+    Corrections majeures de bugs et problèmes liés à la gestion des IA
+    Refonte du système de bridage des IA
+    Ajout de fichiers d'information sur le projet
+
+
+
+>--------------------------------<(28/11/2022)>--------------------------------<
+
+
+Version 1.0.0 :
+
+    Sortie officielle du projet PYRAT Deluxe

@@ -1,0 +1,1 @@
+def main(*args, **kwargs) -> None: return None
